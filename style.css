@@ -1,0 +1,159 @@
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #333;
+}
+
+
+
+.font1 { font-size: 27px; }
+.font2 { font-size: 60px; font-weight: bold; line-height: 1.2; }
+.font3 { font-size: 40px; }
+.font4 { font-size: 20px; }
+
+
+
+@media (max-width: 768px) {
+  .font2 { font-size: 40px; }
+  .font3 { font-size: 30px; }
+  .font4 { font-size: 18px; }
+}
+
+.margin4 {
+  padding: 200px 0 100px;
+  position: relative;
+  z-index: 2;
+}
+
+.back {
+  background-color: rgb(245, 225, 201);
+  padding: 80px 0;
+}
+
+
+
+.navbar-nav a {
+    color: #333 !important;
+    transition: color 0.3s;
+}
+.navbar-nav a:hover {
+    color: rgb(151, 67, 3) !important;
+}
+
+
+
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=2448,h=748,fit=crop/Yyv98LNMvaTaVzQg/chatgpt-image-may-21-2025-01_50_42-pm-Yg2jNk3oL2hrZ7Dj.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.reserve-btn, .menu-btn {
+    border: 2px solid #ffffff !important;
+    padding: 14px 40px !important;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.reserve-btn:hover {
+    background-color: rgb(151, 67, 3) !important;
+    border-color: rgb(151, 67, 3) !important;
+    color: #ffffff !important;
+}
+
+.menu-btn:hover {
+    background-color: #ffffff !important;
+    color: #333 !important;
+}
+
+
+
+.scroll-section {
+  position: relative;
+  width: 100%;
+  min-height: 70vh;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/52d817d3e4b049910d1ba97f/1394560877375-JLBRINOMN253PSX6Q4RY/XU8O1850+copy.jpg?format=750w');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+}
+.scroll-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.scroll-section .content {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  text-align: center;
+  max-width: 700px;
+}
+
+
+
+.footer-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s;
+    display: block;
+    margin-bottom: 5px;
+}
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.email {
+  padding: 14px 20px;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+.submit {
+  background-color: rgb(151, 67, 3);
+  color: #ffffff;
+  padding: 14px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  width: 100%;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+.submit:hover {
+  background-color: rgb(120, 50, 2);
+}
